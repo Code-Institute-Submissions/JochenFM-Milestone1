@@ -5,20 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" text="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" text="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Filed: A Blog for the History of Paperwork</title>
 
 </head>
+
+<header>
+
+ <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+    <a href ="/" class="navbar-brand">Paperwork Blog</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarNavToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+<div class="collapse navbar-collapse" id="navbarNavToggler">
+    <h4 class="menu-toggle"></h4>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active mr-2"><a class ="navlink" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class ="navlink" href="/about">About</a></li>
+            <li class="nav-item mr-2"><a class ="navlink" href="/contributions">Want to Write for us?</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" 
+            aria-haspopup="true" aria-expanded="false">Ressources</a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Bibliography</a>
+                <a class="dropdown-item" href="#">Author Interviews</a>
+                <a class="dropdown-item" href="#">Websites</a>
+            </div>
+
+
+        </ul>
+</div>
+        
+</nav>
+
+</header>
 <body>
-    <header>
-    navigation here
-    </header>
+       
 
     
     <div class="container">
     <!-- Callout-->
         <div class= "row">
-            <div class="col-12">
-        <section class="callout">
+            <div class="col-12 my-5">
+        <section class="callout text-center">
             <h1>FILED: A Blog for the History of Paperwork</h1>
             <p class="lead">Secondary byline of text which should further describe what this is about</p>
         </section>
@@ -30,33 +60,53 @@
     <!--Posts-->
         <section class="posts">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-2">
             <h3 class="text-uppercase">Recent Posts:</h3>
                 </div>
             </div>    
             <div class="row"> 
                 <div class="col-12 col-md-6 col-lg-4">   
-                    <div class="posts">
-                    <h4 class="">Title 1
-                        <a href="" class="" target ="_blank"></a>
-                    <p><a class ="btn btn-dark" href="">Read More</a></p>
-                    </h4>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img scr="images/threewomencardindex.jpg" class="rounded" height="100" width="100">   
+                        </div>    
+                            <div class="media-body">
+                                <div class="posts">
+                                    <h4 class="">Title 1
+                                    <a href="/" class="/" target ="_blank"></a>
+                                    <p><a class ="btn btn-dark" href="">Read More</a></p>
+                                    </h4>
+                                </div>
+                            </div>        
                     </div>
                 </div>
-            <div class="col-12 col-md-6 col-lg-4">    
-                <div class="posts">
-                <h4 class="">Title 2
-                    <a href="" class="" target ="_blank"></a>
-                    <p><a class ="btn btn-dark" href="">Read More</a></p>
-                </h4>
+            <div class="col-12 col-md-6 col-lg-4"> 
+                <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img scr="images/punchedcardindex.jpg" class="rounded" height="100" width="100">
+                    </div>   
+                    <div class="media-body">
+                        <div class="posts">
+                            <h4 class="/">Title 2
+                            <a href="/" class="" target ="_blank"></a>
+                            <p><a class ="btn btn-dark" href="">Read More</a></p>
+                            </h4>
+                        </div>
+                    </div>
                 </div>
-            </div>
             <div class="col-12 d-md-none d-lg-block col-lg-4">
-                <div class ="posts">
-                <h4 class="">Title 3
-                    <a href="" class ="" target="_blank"></a>
-                    <p><a class ="btn btn-dark" href="">Read More</a></p>
-                </h4>
+                <div class="media">
+                    <div class="d-none d-sm-block">
+                        <img scr="images/filesarchive.jpg" class="rounded" height="100" width="100">   
+                    </div>    
+                        <div class="media-body">
+                            <div class ="posts">
+                                <h4 class="/">Title 3
+                                <a href="/" class ="" target="_blank"></a>
+                                <p><a class ="btn btn-dark" href="">Read More</a></p>
+                                </h4>
+                            </div>
+                        </div>        
                 </div>
             </div>    
         </div>                
@@ -65,5 +115,12 @@
     <footer>
     Copyright and social media buttons/links
     </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
