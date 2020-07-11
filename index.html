@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" text="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" text="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Filed: A Blog for the History of Paperwork</title>
 
 </head>
@@ -25,7 +26,7 @@
             <li class="nav-item mr-2"><a class ="navlink" href="/contributions">Want to Write for us?</a></li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" 
-            aria-haspopup="true" aria-expanded="false">Ressources</a>
+            aria-haspopup="true" aria-expanded="false">Ressources</a></li>
 
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Bibliography</a>
@@ -43,21 +44,21 @@
 <body>
        
 
-    
-    <div class="container">
     <!-- Callout-->
+    <div class="container-fluid callout-container">
         <div class= "row">
             <div class="col-12 my-5">
-        <section class="callout text-center">
-            <h1>FILED: A Blog for the History of Paperwork</h1>
-            <p class="lead">Secondary byline of text which should further describe what this is about</p>
-        </section>
+                <section class="callout text-center">
+                    <h1 class="jumbotron-header">FILED: A Blog for the History of Paperwork</h1>
+                    <p class="lead">Secondary byline of text which should further describe what this is about</p>
+                </section>
             </div>
         </div>
     </div>    
     <!--/callout-->
         
     <!--Posts-->
+    <div class="container posts-container">
         <section class="posts">
             <div class="row">
                 <div class="col-12 my-2">
@@ -68,7 +69,7 @@
                 <div class="col-12 col-md-6 col-lg-4">   
                     <div class="media">
                         <div class="d-none d-sm-block">
-                            <img scr="images/threewomencardindex.jpg" class="rounded" height="100" width="100">   
+                            <img scr="../images/threewomencardindex.jpg" class="rounded" height="100" width="100">   
                         </div>    
                             <div class="media-body">
                                 <div class="posts">
@@ -83,7 +84,7 @@
             <div class="col-12 col-md-6 col-lg-4"> 
                 <div class="media">
                     <div class="d-none d-sm-block">
-                        <img scr="images/punchedcardindex.jpg" class="rounded" height="100" width="100">
+                        <img scr="../images/punchedcardindex.jpg" class="rounded" height="100" width="100">
                     </div>   
                     <div class="media-body">
                         <div class="posts">
@@ -97,7 +98,7 @@
             <div class="col-12 d-md-none d-lg-block col-lg-4">
                 <div class="media">
                     <div class="d-none d-sm-block">
-                        <img scr="images/filesarchive.jpg" class="rounded" height="100" width="100">   
+                        <img scr="../images/filesarchive.jpg" class="rounded" height="100" width="100">   
                     </div>    
                         <div class="media-body">
                             <div class ="posts">
@@ -109,11 +110,27 @@
                         </div>        
                 </div>
             </div>    
-        </div>                
+        </div>
+            </div>                    
     </section>
+    </div>   
     <!--/.posts-->
-    <footer>
-    Copyright and social media buttons/links
+    <footer class="container-fluid">
+        <div class="row justify-content-between">
+            <div class="col-4">
+                <h5 class= "uppercase general-sub">Copyright</h5>
+                    <p class="text-left">
+                    Copyright © Jochen Mayer. All rights reserved.
+                    </p>
+            </div>
+            <div class="col-4">
+                <h5 class= "uppercase general-sub">Social</h5>
+                    <p class="text-right"></p>
+            </div>
+        </div>    
+
+
+    
     </footer>
 
 

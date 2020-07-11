@@ -1,0 +1,84 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+
+.callout-container {
+
+    height: 100vH;
+    
+    background: url("../images/P1040561.JPG") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.posts-container {
+
+}
+
+
+/*--------------------------------------------------------------------Jumbotron */
+
+
+
+.jumbotron-header {
+
+    color: #fafafa;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+
+}
+
+.jumbotron.lead {
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1b4a26;
+
+}
+
+
+/*---------------------------------------------------------Special Paddings/margins/text */
+
+
+
+.uppercase {
+
+text-transform: uppercase;
+
+}
+
+.general-sub {
+
+    font-family: 'EB Garamond', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.text-left {
+
+    display: text-left;
+}
+
+.text-right {
+
+    display:text-right;
+}
+
+
+/*--------------------------------------------------------------------Footer */
+
+footer {
+
+background-color: #39844bfa;
+color: #fafafa;
+min-height: 100px;
+}
