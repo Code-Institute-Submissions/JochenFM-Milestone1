@@ -23,6 +23,30 @@ body {
 
 }
 
+/*--------------------------------------------------------------------Page headers */
+
+.page-header {
+
+    margin-bottom: 0;
+    border-bottom:0;
+}
+
+.page-header h3 {
+
+    margin-top: 0;
+}
+
+
+
+/*--------------------------------------------------------------------Jumbotron */
+
+
+.content-container {
+
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+
 
 /*--------------------------------------------------------------------Jumbotron */
 
@@ -37,11 +61,11 @@ body {
 
 }
 
-.jumbotron.lead {
+.jumbotron-header .lead {
 
     font-size: 1.25rem;
     font-weight: 600;
-    color: #1b4a26;
+    color: #fafafa;
 
 }
 
@@ -68,11 +92,16 @@ text-transform: uppercase;
     display: text-left;
 }
 
-.text-right {
 
-    display:text-right;
+
+
+/*--------------------------------------------------------------------Posts */
+
+.posts {
+
+    text-align: center;
+    margin-bottom: 40px;
 }
-
 
 /*--------------------------------------------------------------------Footer */
 
@@ -81,4 +110,35 @@ footer {
 background-color: #39844bfa;
 color: #fafafa;
 min-height: 100px;
+}
+
+
+
+.social-links li a i {
+
+width: 32px;
+height: 32px;
+padding: 12px; 0;
+border-radius: 50%;
+font-size: 13px;
+line-height: 7px;
+text-align: center;
+color: #fafafa;
+background: #343a40;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+
+    background: #931d29
+
+}
+
+#footer-details {
+
+    padding: 20px;
 }
