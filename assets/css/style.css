@@ -99,7 +99,10 @@ color: #931d29;
 
 /*--------------------------------------------------------------------Jumbotron */
 
+.jumbotron {
 
+    background-color: transparent;
+}
 
 .jumbotron-header {
 
@@ -110,7 +113,7 @@ color: #931d29;
 
 }
 
-.jumbotron-header .lead {
+.jumbotron .lead {
 
     font-size: 1.25rem;
     font-weight: 600;
@@ -197,6 +200,13 @@ background: #343a40;
      background-color: #fff;
 
  }
+
+
+.btn-dark:hover {
+
+    background: #931d29;
+}
+
 
  /*--------------------------------------------------------------------Submission Form */
 
