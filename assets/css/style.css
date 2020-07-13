@@ -43,7 +43,7 @@ body {
 
     position: absolute;
     top: 0;
-    left 0;
+    left: 0;
     padding-left: 0;
     padding-right: 0;
 }
@@ -77,15 +77,26 @@ color: #931d29;
 .navbar .navbar-nav a{
 
     font-weight:bold;
-    color:#931d29;
+    
 
 
 }
 
-.nav-item.dropdown{
+.navbar-light .navbar-brand:hover  {
 
     color:#931d29;
 }
+
+
+.navbar .navbar-nav a{
+
+color:#931d29;
+
+}
+
+
+
+
 
 /*--------------------------------------------------------------------Jumbotron */
 
@@ -141,7 +152,7 @@ text-transform: uppercase;
 
 .text-left {
 
-    display: text-left;
+    display: ;
 }
 
 
@@ -170,7 +181,7 @@ min-height: 100px;
 
 width: 32px;
 height: 32px;
-padding: 12px; 0;
+padding: 12px 0;
 border-radius: 50%;
 font-size: 13px;
 line-height: 7px;
@@ -239,5 +250,4 @@ button[type="submit"] {
     min-height: 240px;
     margin: 0 auto;
     max-width: 50%;
-
-}
+    }
