@@ -3,48 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filed: A Blog for the History of Paperwork</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" text="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" text="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Filed: A Blog for the History of Paperwork</title>
+
 
 </head>
 
-<header>
-
- <div class="container-fluid navalert-container">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-        <a href ="/" class="navbar-brand">Paperwork Blog</a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarNavToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarNavToggler">
-    <h4 class="menu-toggle"></h4>
-        <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-4"><a class ="navlink" href="index.html">Home</a></li>
-            <li class="nav-item mr-4"><a class ="navlink" href="about.html">About</a></li>
-            <li class="nav-item mr-4"><a class ="navlink" href="contributions.html">Want to Write for us?</a></li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" 
-            aria-haspopup="true" aria-expanded="false">Ressources</a></li>
-
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Bibliography</a>
-                <a class="dropdown-item" href="#">Author Interviews</a>
-                <a class="dropdown-item" href="#">Websites</a>
-            </div>
-        </ul>
-    </div>
-    </nav>
-</div>
-</header>
 <body>
-       
+    <header>​
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">Paperwork Blog</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+​
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contributions.html">Write for us?</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ressources
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Bibliography</a>
+                        <a class="dropdown-item" href="#">Author Interviews</a>
+                        <a class="dropdown-item" href="#">Websites</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+​</header>
 
-    <!-- Callout-->
+<!-- Callout-->
     <div class="container-fluid callout-container">
-        <div class= "row">
+        <div class="row">
             <div class="col-12 my-5">
                 <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">FILED: A Blog for the History of Paperwork</h1>
@@ -52,9 +65,10 @@
                 </section>
             </div>
         </div>
-    </div>    
+    </div>
     <!--/callout-->
-        
+​
+
     <!-- contributions-->
 <section class="container-fluid">
     <div class="row bg-color-contact">
@@ -62,8 +76,8 @@
             <h3 class="contribution-heading uppercase text-center"> Would you like to contribute to this blog?</h3>
             <h5 class="uppercase text-center">Send us your article</h5>
             <div class="center-form">
-            <form>
-                <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required/>
+            <form class="needs-validation" novalidate>
+                <input type="text" name="name" id="validationCustom01" class="form-control" placeholder="Name" required/>
                 <div class="valid-feedback">
                 Looks good!
                  </div>
@@ -74,7 +88,17 @@
                     </div>
                 <textarea rows="5" name="comment" id="comment" class="form-control" placeholder="Your message" required></textarea>
                 <div class="form-row text-center">
-                    <div class="col">
+
+                <!--<div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                             <label class="form-check-label" for="invalidCheck">Agree to Data Protection Policy</label>
+                                <div class="invalid-feedback">
+                                        You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>-->
+                <div class="col">
                     <button type="submit" class="btn btn-dark">Send article</button>
                     
                     </div>                        
