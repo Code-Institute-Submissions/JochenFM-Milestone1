@@ -1,7 +1,7 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
 
-# Filed: A Blog for the History of Paperwork #
+# FILED: A Blog for the History of Paperwork #
 
 
 To my knowledge, there is no blog of such kind out there yet. Yet, historical scholarship in the field of history of (bureaucratic) 
@@ -48,21 +48,32 @@ In response to my call on April 28th, I also received a number of
 suggestions from colleagues of how to improve on the initial ideas and what else to include such as a reading list/bibliography 
 and names of potential candidates
 
-![Balsamiq wireframe](wireframes/home.png) 
 
-![Hand-sketched](wireframes/home_handdrawn.jpeg)
+
+![Hand-sketched](wireframes/home_handdrawn.jpeg). A PDF with all hand-sketched wireframes combined can be accessed via the directory on the left under *wireframes/handsketched_combined.pdf*. 
+
+![Balsamiq wireframe](wireframes/home.png) 
+![Balsamiq wireframes](wireframes/about.png)
+![Balsamiq wireframes](wireframes/writeus.png)
 
 ## Features ##
 
 ### Existing Features ###
 
 ### Features left to implement ###
--	I am hoping to wire up the submit form on the contribute site to a JavaScript email API/ to an external email interface.
--	A ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further
--	A searchable database for all the posts, by keywords
--	Create facebook and twitter accounts and put links in footer live
--	Add more content
-* ask artist to join and design fitting graphic templates that can be used across the blog 
+
+Additional features to be implemented in the coming weeks include:
+
+- [ ] wire up the submit form on the 'write for us' site to an external email interface to be able to receive emails and attachments which will be essential to the purpose of this site.
+- [ ]  ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
+- [ ] Create facebook and twitter accounts and put links in footer live
+- []	Add more content
+- [] ask artist to join and design fitting graphic templates that can be used across the blog
+- [] a carousel of images at the top of 'home' as here notchesblog.com or blackcentraleurope.com
+[] a highly visible box or card with contact details for more general queries which are not article submissions
+[] as and when more blog entries will have been posted, I envision to increase the categories under which they are archived and searchable beyond the current one of "recent posts"
+such as by geographical region, historial period, or another set of categories related more closely to the content of paperwork 
+[] expand on the submission form as here http://notchesblog.com/write-for-notches/ and also insert further specifications of sunmission guidelines in terms of aims, scope and style. 
 
 ## Technologies Used ##
 
@@ -96,7 +107,7 @@ The text of this blog was written by me.
 The hero image was photographed by me in the archive of 
 the [Deutsches Museum Munich](http://www.deutsches-museum.de/archiv/) in January 2018.
 The Archive shared the copyright on the condition that it may not be republished without their express permission.
-The other photos used in this site were obtained via the google image and are free to use or share.
+The other photos used in this site were obtained via google image and are free to use or share.
 
 ### Acknowledgement ###
 
