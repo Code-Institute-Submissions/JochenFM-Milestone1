@@ -1,39 +1,67 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome JochenFM,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+# Filed: A Blog for the History of Paperwork #
 
-## Gitpod Reminders
+## UX ##
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I tweeted out a [first call for contributors](https://twitter.com/jochenfm/status/1255194721208741890) on 28 April in form of a thread, stating my main ideas 
+for this blog encouraging my 'followers' to spread the word and send their statements of interest to me via email. 
+This was followed by a similar, [second call](https://twitter.com/jochenfm/status/1279396434635370496) on July 4 to which I added a 
+google [excel spreadsheet](https://docs.google.com/spreadsheets/d/1S7NhSFTwzLrkMulq3ERP6cURSmIDVFvC7GLSbo_qzNQ/edit#gid=0) asking 
+contributors to add name, institutional affiliation and their ideas for this blog. My tweet this time rectified a huge oversight in my first call and now 
+explicitly addressed my policy of inclusion and diversity, partly in response to an all male, all-white response to my first call. 
 
-`python3 -m http.server`
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features ##
 
-A blue button should appear to click: *Make Public*,
+### Existing Features ###
 
-Another blue button should appear to click: *Open Browser*.
+### Features left to implement ###
+-	I am hoping to wire up the submit form on the contribute site to a JavaScript email API/ to an external email interface.
+-	A ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further
+-	A searchable database for all the posts, by keywords
+-	Create facebook and twitter accounts and put links in footer live
+-	Add more content
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+## Technologies Used ##
 
-## Updates Since The Instructional Video
+https://fontawesome.com/
+https://css-tricks.com/perfect-full-page-background-image/
+For full width back ground image on the ‘Home’ page
+Bootstrap for “Custom file input” as an extension of form on contributions site
+https://favicon.io/emoji-favicons/file-cabinet/ for favicon
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing ##
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Deployment ##
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Credits ##
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Content ###
 
---------
+The text of this blog was written by me.
 
-Happy coding!
+### Media ###
+
+The hero image was photographed by me in the archive of 
+the [Deutsches Museum Munich](http://www.deutsches-museum.de/archiv/) in January 2018.
+The Archive shared the copyright on the condition that it may not be republished without their express permission.
+The other photos used in this site were obtained via the google image and are free to use or share.
+
+### Acknowledgement ###
+
+My thanks to Code Institute and especially to Matt Rudge for providing concise and useful course material. 
+
+I am also grateful to my mentor Benga for commenting on earlier versions of this project.
+
+Special thanks to Philip...
+
+The following history blogs provided inspiration:
+* [Black Central Europe](https://blackcentraleurope.com/)
+* [AAIHS Black Perspectives](https://www.aaihs.org/black-perspectives/)
+* [Littera Visigothica](http://www.litteravisigothica.com/)
+* [Shells and Pebbles](www.shellsandpebbles.com) 
