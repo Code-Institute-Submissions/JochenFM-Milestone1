@@ -9,7 +9,7 @@ paperwork has been gathering momentum over the past 10 years or so. Following a 
 2009 literature review for [Book History]() was first to suggest to gather this scholarship under the label of what 
 he coined **"the history of paperwork"**
 
-Since 2016, I have been carving out my niche in this scholarly field and promoting/gathering scholarship on twitter under the *#histpaperwork*, 
+Since 2016, I have been carving out my niche in this scholarly field and promoting/gathering scholarship on twitter under the *#histpaperwork* hashtag,
 viz. short for 'history of paperwork'. 
 
 
@@ -26,6 +26,8 @@ Focus is clearly on an earlier period than mine, namely Renaissance/early modern
 
 
 ## UX ##
+
+The idea for this blog predates my start at CI, but upon studying the course material I have carried with me the idea of using Milestone Project 1 to implement... 
 
 I sent out a [first call for contributors](https://twitter.com/jochenfm/status/1255194721208741890) on 28 April in form of a twitter thread, stating my main ideas 
 for this blog encouraging my 'followers' to spread the word and send their statements of interest to me via email. 
@@ -46,9 +48,9 @@ In response to my call on April 28th, I also received a number of
 suggestions from colleagues of how to improve on the initial ideas and what else to include such as a reading list/bibliography 
 and names of potential candidates
 
+![Balsamiq wireframe](wireframes/home.png) 
 
-
-
+![Hand-sketched](wireframes/About_Handdrawn.jpeg)
 
 ## Features ##
 
@@ -63,6 +65,9 @@ and names of potential candidates
 * ask artist to join and design fitting graphic templates that can be used across the blog 
 
 ## Technologies Used ##
+
+* [Balsamiq](https://balsamiq.com/)
+    * The wireframes for this project were drawn up with **Balsamiq**
 
 * [Google Font](https://fonts.google.com/)
     * The Garamond font is drawn from **Google Fonts**
@@ -95,11 +100,11 @@ The other photos used in this site were obtained via the google image and are fr
 
 ### Acknowledgement ###
 
-My thanks to Code Institute and especially to Matt Rudge for providing concise and useful course material. 
+My thanks to Code Institute and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq. 
 
-I am also grateful to my mentor Benga for commenting on earlier versions of my code.
+I am also grateful to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
 
-Special thanks to Philip...
+Special thanks to [Philip](https://github.com/smackem)...
 
 The following history blogs provided inspiration:
 * [Black Central Europe](https://blackcentraleurope.com/)
