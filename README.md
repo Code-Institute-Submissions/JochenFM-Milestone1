@@ -5,15 +5,15 @@
 
 
 To my knowledge, there is no blog of such kind out there yet. Yet, historical scholarship in the field of history of (bureaucratic) 
-paperwork has been gathering momentum over the past 10 years or so. Following a number of dispersed scholarly publications, Ben Kafka, in a 
-2009 literature review for [Book History]() was first to suggest to gather this scholarship under the label of what 
-he coined **"the history of paperwork"**
+paperwork has been gathering momentum over the past 10 years or so. Following a number of dispersed scholarly publications, cultural historian 
+[Ben Kafka](https://steinhardt.nyu.edu/people/ben-kafka), in a 2009 literature review for [Book History]() was first to suggest to gather 
+this scholarship under the label of what he coined **"the history of paperwork"**
 
 Since 2016, I have been carving out my niche in this scholarly field and promoting/gathering scholarship on twitter under the *#histpaperwork* hashtag,
 viz. short for 'history of paperwork'. 
 
 
-A colleague with whom I have been exchanging ideas about my blog idea, following my initiative, started to gather resources 
+Derek Dunne, a colleague with whom I have been exchanging ideas about my blog, started to gather resources 
 for a similar project entitled [Literature & Bureaucracy from Shakespeare to Kafka](https://twitter.com/DerekVindice/status/1259782834409164800).
 
 There are similarities
@@ -27,7 +27,7 @@ Focus is clearly on an earlier period than mine, namely Renaissance/early modern
 
 ## UX ##
 
-The idea for this blog predates my start at CI, but upon studying the course material I have carried with me the idea of using Milestone Project 1 to implement... 
+The idea for this blog predates my start at CI, yet upon studying the course material I have carried with me the idea of using Milestone Project 1 to implement... 
 
 I sent out a [first call for contributors](https://twitter.com/jochenfm/status/1255194721208741890) on 28 April in form of a twitter thread, stating my main ideas 
 for this blog encouraging my 'followers' to spread the word and send their statements of interest to me via email. 
@@ -50,7 +50,7 @@ and names of potential candidates
 
 ![Balsamiq wireframe](wireframes/home.png) 
 
-![Hand-sketched](wireframes/About_Handdrawn.jpeg)
+![Hand-sketched](wireframes/home_handdrawn.jpeg)
 
 ## Features ##
 
