@@ -3,6 +3,7 @@
 
 # FILED: A Blog for the History of Paperwork #
 
+... 
 
 ## UX ##
 
@@ -70,11 +71,31 @@ and names of potential candidates
 
 
 
-![Hand-sketched](wireframes/home_handdrawn.jpeg). A PDF with all hand-sketched wireframes combined can be accessed via the directory on the left under *wireframes/handsketched_combined.pdf*. 
+
+
+A PDF with all hand-sketched wireframes combined can be accessed via the directory on the left under *wireframes/handsketched_combined.pdf*. 
+Below is a photo of the homepage as drawn up by me, followed by three Balsamiq wireframes:
+
+![Hand-sketched](wireframes/home_handdrawn.jpeg). 
 
 ![Balsamiq wireframe](wireframes/home.png) 
 ![Balsamiq wireframes](wireframes/about.png)
 ![Balsamiq wireframes](wireframes/writeus.png)
+
+
+
+
+
+As can be seen above, fonts, colours, and design choices at that stage were all very limited only. 
+
+My design was primarily inspired by the feasibility based on what we had learned in the three modules thus far, and 
+
+This may be a sterotype, but historians are almost always in the mood to read so I did not refrain from larger paragraphs of text - thisis a history blog after all
+designed to gather and disseminate mostly textual information on bureaucratic paperwork.
+
+
+
+
 
 ## Features ##
 
@@ -128,8 +149,8 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 
 ### Content ###
 
-The text for section 'Editorial Team' on 'About' was copied from the editors' respective home/institutional websites 
-and partly also provided by James and Chris in response to my twitter call for participants. text for this section and others will be customized
+The text for section 'Editorial Team' on the 'Write for us?' site was copied from the editors' respective home/institutional websites 
+and partly also provided by the co-editors upon request by email. Text for this section (and others) will be customized
 further as we go along.
 All other text of this blog was written by me.
 
@@ -142,7 +163,8 @@ The other photos used in this site were obtained via google image and are free t
 
 ### Acknowledgement ###
 
-My thanks to Code Institute, Brian O'Grady, and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq. 
+My thanks to Code Institute, Brian O'Grady, and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq.
+Many thanks also to Anna Greaves for her great *How to make a Kick Ass first Milestone* PDFs - I got the idea for box shadows from there, amongst others.
 
 I am also grateful to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
 

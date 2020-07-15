@@ -19,6 +19,20 @@ body {
 }
 
 
+.small-container {
+
+height: 50vH;
+    
+    background: url("../images/womankardex.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .content-container {
 
@@ -75,7 +89,7 @@ padding-bottom: 75px;
 .contribution-role {
 
 margin-bottom: 25px;
-
+margin-top: 25px;
 }
 
 /*--------------------------------------------------------------------Navbar */
