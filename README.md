@@ -95,7 +95,8 @@ Additional features to be implemented in the coming weeks include:
 - [ ] as and when more blog entries will have been posted, I envision to increase the categories under which they are archived and searchable beyond the current one of "recent posts"
 such as by geographical region, historial period, or another set of categories related more closely to the content of paperwork 
 - [ ] expand on the submission form as here http://notchesblog.com/write-for-notches/ and also insert further specifications of sunmission guidelines in terms of aims, scope and style. 
-
+- [ ] add tooltip from Bootstrap to Data Protection Policy tick box on 'contributions.html' with brief information what these are such as "At no time will we share your data with other 
+    people or companies, the data provided will become part of the database of this blog exclusively..." and a link to more information on this.
 ## Technologies Used ##
 
 * [Balsamiq](https://balsamiq.com/)
@@ -115,6 +116,9 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 * [Stackoverflow](https://stackoverflow.com/)
     * The fontcolour transition on the 'About' page was inspired by code from **Stackoverflow**    
 
+* [Codepen](https://codepen.io/)
+*   * The card shadow on 'Home' is taken from **Codepen**
+
 
 ## Testing ##
 
@@ -125,7 +129,9 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 ### Content ###
 
 The text for section 'Editorial Team' on 'About' was copied from the editors' respective home/institutional websites 
-and partly also provided by James and Chris. All other text of this blog was written by me.
+and partly also provided by James and Chris in response to my twitter call for participants. text for this section and others will be customized
+further as we go along.
+All other text of this blog was written by me.
 
 ### Media ###
 
@@ -136,7 +142,7 @@ The other photos used in this site were obtained via google image and are free t
 
 ### Acknowledgement ###
 
-My thanks to Code Institute and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq. 
+My thanks to Code Institute, Brian O'Grady, and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq. 
 
 I am also grateful to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
 
