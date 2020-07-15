@@ -112,6 +112,9 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 * [Favicon](https://favicon.io/)
     * The Favicons have been taken from 
 
+* [Stackoverflow](https://stackoverflow.com/)
+    * The fontcolour transition on the 'About' page was inspired by code from **Stackoverflow**    
+
 
 ## Testing ##
 
