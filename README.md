@@ -4,7 +4,7 @@
 # FILED: A Blog for the History of Paperwork #
 
 
-
+## UX ##
 
 To my knowledge, there is no blog of such kind out there yet. Yet, historical scholarship in the field of history of (bureaucratic) 
 paperwork has been gathering momentum over the past 10 years or so. Following a number of dispersed scholarly publications, cultural historian 
@@ -35,16 +35,16 @@ A quick search on google quickly showed, however, that both titles (URLs) had be
 A number of blogs on paper art and craft, such as [My Paper Tales](http://mypapertales.blogspot.com/), [Paper Tales](https://www.papertales.co.za/), 
 and [Paper Tales](http://www.papertales.com/) \[sic!\]
 
-'Paper trails', on the other hand, has been used for an ongoing scholarly publication project entitled 
-['Paper Trails': Materiality, Serendipity, and the Social Lives of Archives](https://blogs.ucl.ac.uk/special-collections/2019/08/23/call-for-papers-for-paper-trails-a-new-open-access-publication-with-ucl-press/) 
-and is the product name of a cloud-hosted log management system [Papertrail](https://www.papertrail.com/).
+'Paper trails', on the other hand, has been used as a title for an ongoing scholarly 
+[publication project](https://blogs.ucl.ac.uk/special-collections/2019/08/23/call-for-papers-for-paper-trails-a-new-open-access-publication-with-ucl-press/) at University College London,
+and is the product name of a cloud-hosted [log management system](https://www.papertrail.com/).
 
 In the face of such rather crowded online space, I decided to go with "Filed: A Blog for the History of Paperwork" instead. 
 The referecne to 'files' in the title is not a bad choice in the end, as it allows us to alert readership to the main focus of this blog 
 towards emphasize the most basic unit of paperwork while 
 keeping some focus on its more standardized formats which neither paper tales nor paper trails convey in the same manner paper scraps/shreds or paper art. 
 
-## UX ##
+
 
 The idea for this blog predates my enrolment at CI, yet upon studying the course material I have carried with me the idea of using Milestone Project 1 to have a first short
 at implementing this idea by coding the blog. 
@@ -87,14 +87,14 @@ Additional features to be implemented in the coming weeks include:
 - [ ] wire up the submit form on the 'write for us' site to an external email interface to be able to receive emails and attachments which will be essential to the purpose of this site.
 - [ ]  ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
 - [ ] Create facebook and twitter accounts and put links in footer live
-- []  Add more content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in the 'About' section directing to 
+- [ ] Add more content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in the 'About' section directing to 
     institutional affiliations of and publications by editors and advisors.
-- [] ask artist to join and design fitting graphic templates that can be used across the blog
-- [] a carousel of images at the top of 'home' as here notchesblog.com or blackcentraleurope.com
-[] a highly visible box or card with contact details for more general queries which are not article submissions
-[] as and when more blog entries will have been posted, I envision to increase the categories under which they are archived and searchable beyond the current one of "recent posts"
+- [ ] ask artist to join and design fitting graphic templates that can be used across the blog
+- [ ] a carousel of images at the top of 'home' as here notchesblog.com or blackcentraleurope.com
+- [ ] a highly visible box or card with contact details for more general queries which are not article submissions
+- [ ] as and when more blog entries will have been posted, I envision to increase the categories under which they are archived and searchable beyond the current one of "recent posts"
 such as by geographical region, historial period, or another set of categories related more closely to the content of paperwork 
-[] expand on the submission form as here http://notchesblog.com/write-for-notches/ and also insert further specifications of sunmission guidelines in terms of aims, scope and style. 
+- [ ] expand on the submission form as here http://notchesblog.com/write-for-notches/ and also insert further specifications of sunmission guidelines in terms of aims, scope and style. 
 
 ## Technologies Used ##
 
@@ -121,7 +121,8 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 
 ### Content ###
 
-The text of this blog was written by me.
+The text for section 'Editorial Team' on 'About' was copied from the editors' respective home/institutional websites 
+and partly also provided by James and Chris. All other text of this blog was written by me.
 
 ### Media ###
 

@@ -19,8 +19,35 @@ body {
 }
 
 
+
+.content-container {
+
+    padding-top: 75px;
+    padding-bottom: 120px;
+}
+
 .posts-container {
 
+
+}
+
+
+.contribution-container {
+
+    
+padding-top: 75px;
+padding-bottom: 75px;
+}
+
+
+.about-container {
+
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: 100%;
+    padding-left: 45px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*--------------------------------------------------------------------Page headers */
@@ -31,11 +58,25 @@ body {
 
 }
 
+.about-page-header {
+
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-top: 0;
+    font-weight: 400;
+    display: block;
+}
+
 .page-header h3 {
 
     margin-top: 0;
 }
 
+.contribution-role {
+
+margin-bottom: 25px;
+
+}
 
 /*--------------------------------------------------------------------Navbar */
 
@@ -96,18 +137,6 @@ color:#931d29;
 
 
 
-
-
-/*--------------------------------------------------------------------Jumbotron */
-
-
-.content-container {
-
-    padding-top: 75px;
-    padding-bottom: 120px;
-}
-
-
 /*--------------------------------------------------------------------Jumbotron */
 
 .jumbotron {
@@ -157,6 +186,17 @@ text-transform: uppercase;
 
 
 
+.editor-name {
+
+
+}
+
+
+.impressum {
+
+    margin-top: 40px;
+}
+
 
 /*--------------------------------------------------------------------Posts */
 
@@ -165,6 +205,30 @@ text-transform: uppercase;
     text-align: center;
     margin-bottom: 40px;
 }
+
+
+/*-------------------------------------------------------------------About*/
+
+.about {
+
+    display: block;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.editor-name {
+
+color: #343a40;
+transition: #931d29 .2s;
+    transition-property: #931d29;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+
 
 /*--------------------------------------------------------------------Footer */
 
