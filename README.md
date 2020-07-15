@@ -4,9 +4,11 @@
 # FILED: A Blog for the History of Paperwork #
 
 
+
+
 To my knowledge, there is no blog of such kind out there yet. Yet, historical scholarship in the field of history of (bureaucratic) 
 paperwork has been gathering momentum over the past 10 years or so. Following a number of dispersed scholarly publications, cultural historian 
-[Ben Kafka](https://steinhardt.nyu.edu/people/ben-kafka), in a 2009 literature review for [Book History]() was first to suggest to gather 
+[Ben Kafka](https://steinhardt.nyu.edu/people/ben-kafka), in a 2009 literature review for [Book History](https://www.jstor.org/stable/40930549?seq=1) was first to suggest to gather 
 this scholarship under the label of what he coined **"the history of paperwork"**
 
 Since 2016, I have been carving out my niche in this scholarly field and promoting/gathering scholarship on twitter under the *#histpaperwork* hashtag,
@@ -24,10 +26,28 @@ aware to date there is no plan to add a blog to this endeavour.
 Focus is clearly on an earlier period than mine, namely Renaissance/early modern period and is concerned more specifically with 
 "literature's response and/or resistance to the growth of bureaucracy", as is mentioned in Derek's initial [call](https://twitter.com/DerekVindice/status/1259782834409164800/photo/1)
 
+In terms of blog title (and future URL), I first opted for "Paper Tales: A Blog for the History of Paperwork" which nicely captures my main idea of writing tales about paper for
+a broader readership inside and outside the academy. As second option was "Paper Trails: A Blog for the History of Paperwork" - again, beautifully encapsulating in the title one 
+of the main functions of paperwork which is also a concern here: the seriality of written documents with regards to re-occuring events, especially with regards to activities of 
+an organization.   
+A quick search on google quickly showed, however, that both titles (URLs) had been taken up already, even although the target audience differed slightly:
+
+A number of blogs on paper art and craft, such as [My Paper Tales](http://mypapertales.blogspot.com/), [Paper Tales](https://www.papertales.co.za/), 
+and [Paper Tales](http://www.papertales.com/) \[sic!\]
+
+'Paper trails', on the other hand, has been used for an ongoing scholarly publication project entitled 
+['Paper Trails': Materiality, Serendipity, and the Social Lives of Archives](https://blogs.ucl.ac.uk/special-collections/2019/08/23/call-for-papers-for-paper-trails-a-new-open-access-publication-with-ucl-press/) 
+and is the product name of a cloud-hosted log management system [Papertrail](https://www.papertrail.com/).
+
+In the face of such rather crowded online space, I decided to go with "Filed: A Blog for the History of Paperwork" instead. 
+The referecne to 'files' in the title is not a bad choice in the end, as it allows us to alert readership to the main focus of this blog 
+towards emphasize the most basic unit of paperwork while 
+keeping some focus on its more standardized formats which neither paper tales nor paper trails convey in the same manner paper scraps/shreds or paper art. 
 
 ## UX ##
 
-The idea for this blog predates my start at CI, yet upon studying the course material I have carried with me the idea of using Milestone Project 1 to implement... 
+The idea for this blog predates my enrolment at CI, yet upon studying the course material I have carried with me the idea of using Milestone Project 1 to have a first short
+at implementing this idea by coding the blog. 
 
 I sent out a [first call for contributors](https://twitter.com/jochenfm/status/1255194721208741890) on 28 April in form of a twitter thread, stating my main ideas 
 for this blog encouraging my 'followers' to spread the word and send their statements of interest to me via email. 
@@ -67,7 +87,8 @@ Additional features to be implemented in the coming weeks include:
 - [ ] wire up the submit form on the 'write for us' site to an external email interface to be able to receive emails and attachments which will be essential to the purpose of this site.
 - [ ]  ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
 - [ ] Create facebook and twitter accounts and put links in footer live
-- []	Add more content
+- []  Add more content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in the 'About' section directing to 
+    institutional affiliations of and publications by editors and advisors.
 - [] ask artist to join and design fitting graphic templates that can be used across the blog
 - [] a carousel of images at the top of 'home' as here notchesblog.com or blackcentraleurope.com
 [] a highly visible box or card with contact details for more general queries which are not article submissions
