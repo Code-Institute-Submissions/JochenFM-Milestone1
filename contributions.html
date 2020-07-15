@@ -74,7 +74,7 @@
     <!--/callout-->
 ​
 
-    <!-- contributions-->
+    <!-- contributions adapted from Rosie project-->
 <section class="container-fluid contribution-container">
     <div class="row bg-color-contact">
         <div class="col">
@@ -82,17 +82,17 @@
             <h5 class="uppercase text-center">Send us your article</h5>
             <div class="center-form">
             <form class="needs-validation" novalidate>
-                <input type="text" name="name" id="validationCustom01" class="form-control" placeholder="Name" required/>
-                <div class="valid-feedback">
-                Looks good!
-                 </div>
+                <input type="text" name="name" class="form-control" placeholder="Name" required/>
                 <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
-                    <div class="custom-file">
+                     <!--the following four lines of code are adapted from Bootstrap--> 
+                     <div class="custom-file">
                         <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
                         <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                     </div>
                 <textarea rows="5" name="comment" id="comment" class="form-control" placeholder="Your message" required></textarea>
                 <div class="form-row text-center">
+                    
+                 <!--tick box and button adapted from bootstrap and customized-->   
                     <div class="form-group">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
