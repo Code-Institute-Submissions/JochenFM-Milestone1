@@ -190,14 +190,15 @@ color:#931d29;
     color: #fafafa;
     font-weight: bold;
     margin-bottom: 20px;
+    font-size: 3.75rem;
 
 
 }
 
 .jumbotron .lead {
 
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: #fafafa;
 
 }
