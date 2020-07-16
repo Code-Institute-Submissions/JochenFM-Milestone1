@@ -45,11 +45,17 @@ at implementing this idea.
 
 
 
-* As a historian,
-* As a reader outside the academy, I want to be informed about historical scholarship to present-day issues related to inscriptions, reading, power, and information;
+* 
+* As a reader outside the academy, I want to be informed on the topic, especially on how its historical instances tie in with present-day issues 
+related to inscriptions, reading, power, and information so that I can become a more responsible and critical citizen;
 * As an archivist, I want to share my knowledge about files and filing with historians who often only read them without inquring about the process of their material production;
+* As a museum curator, I want to enter into conversation with historians and archivists about my knowledge of e.g. early 20th-century office technology so that I can better fulfill my professional role; 
 * As a contributor, I want to write down my throughts on regular basis so that I can order them and cut them up in publishable texts;
-* As a early career historian, I want to get into the habit of writing regularly so that I can become a productive academic.
+* As a contributor, I also want to increase my online presence and link my scholarly topics to my name so that I am visibly attached to a certain topic;
+* As a contributor, I wish to grow my academic network so that I know more about what is being done in the field and know where and how I can contribute to the debates;
+* As a contributor, I want to partake in the widest possible dissemination of my work to foster historical research and debate;  
+* As a co-editor, I wish to document my research activity for better career prospects and/or promotion;
+* As a early career historian, I want to get into the habit of writing regularly so that I can become a productive academic writer.
 
 To my knowledge, there is no blog of such kind out there yet. Yet, Derek Dunne, a colleague with whom I have been exchanging ideas about my blog, started to gather resources 
 for a similar project entitled [Literature & Bureaucracy from Shakespeare to Kafka](https://twitter.com/DerekVindice/status/1259782834409164800).
@@ -139,27 +145,34 @@ designed to gather and disseminate mostly textual information on a text-heavy to
 ### Existing Features ###
 
 
-[x] The 'recent posts' section below the landing page on index-html allows users to...
-[x] 
+- [x] The large image on the landing page in index.html quickly sets the atmosphere linking design with main content; 
+- [x] The 'recent posts' section below the landing page on index.html (once live) will allow users to quckly access the most recent content;
+- [x] If users wish to browse content further they can click on the adjacent 'More recent posts' card before they delve into the single articles;
+- [x] The social media buttons in the footer will allow users to share the content of this page;
+- [x] These social media links also allow us to disseminate the news about the existence of this blog;
+- [x] about.html allows users to quickly gain an overview of the aims and rationale for this blog and who the editors are, 
+their interests and social media profiles all of which is crucial to get a feel for what they are seeing;
+- [x] The impressum on this page set outs the basic copyrights;
+- [x] The submit form on contributions.html will allow users to comfortably submit their contribution, by having them fill out the submit form and attach their file. 
 
 ### Features left to implement ###
 
 Additional features to be implemented in the coming weeks include:
 
-- [ ] wire up the submit form on the 'write for us' site to an external email interface to be able to receive emails and attachments which will be essential to the purpose of this site.
-- [ ]  ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
-- [ ] Create facebook and twitter accounts and put links in footer live
-- [ ] Add more content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in the 'About' section directing to 
+- [ ] wire up the submit form on contributions.html to an external email interface to be able to receive emails and attachments which will be essential to the purpose of this site.
+- [ ] insert ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
+- [ ] create facebook and twitter accounts and put links in footer live
+- [ ] add more content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in about.html directing to 
     institutional affiliations of and publications by editors and advisors.
 - [ ] ask artist to join and design fitting graphic templates that can be used across the blog
-- [ ] a carousel of images at the top of 'home' as here notchesblog.com or blackcentraleurope.com
+- [ ] a carousel of images at the top of index.html as done [here](notchesblog.com) or [here](blackcentraleurope.com);
 - [ ] a highly visible box or card with contact details for more general queries which are not article submissions
 - [ ] as and when more blog entries will have been posted, I envision to increase the categories under which they are archived and searchable beyond the current one of "recent posts"
 such as by geographical region, historial period, and theme. 
 - [ ] expand on the submission form as here http://notchesblog.com/write-for-notches/ and also insert further specifications of sunmission guidelines in terms of aims, scope and style. 
 - [ ] add tooltip from Bootstrap to Data Protection Policy tick box on 'contributions.html' with brief information what these are such as "At no time will we share your data with other 
     people or companies, the data provided will become part of the database of this blog exclusively..." and a link to more information on this which will be stored as a PDF or elsewhere.
-- [ ] a comment function under each blog post for readers to share their views although this needs moderation and further data policies. 
+- [ ] a comment function under each blog post for readers to share their views although this needs moderation and further/comments policies. 
 
 
 ## Technologies Used ##
