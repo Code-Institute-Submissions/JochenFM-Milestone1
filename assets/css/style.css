@@ -174,7 +174,10 @@ color:#931d29;
 }
 
 
+.navbar-collapse ul li a .active-page {
 
+    font-weight: 600;
+}
 
 
 
@@ -225,11 +228,6 @@ text-transform: uppercase;
 
 
 
-.editor-name {
-
-
-}
-
 
 .impressum {
 
@@ -265,7 +263,6 @@ text-transform: uppercase;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
-}
 
 
 /*-------------------------------------------------------------------About*/
@@ -285,10 +282,10 @@ text-transform: uppercase;
         -moz-transition: #931d29 .2s linear;
         -o-transition: #931d29 .2s  linear;
         -ms-transition:  #931d29 .2s linear;
-        transition:  #931d29 .2s linear;
-
+        
 
     }
+
     a:hover {
         color: #931d29;
     }
@@ -300,10 +297,21 @@ text-transform: uppercase;
     width: 75px;
     height: 2px;
     border: 0;
-    margin-left: center;
+    margin-left: auto;
     background-color: #931d29;
 }
 
+
+h6 a {
+
+color: #343a40;
+
+}
+
+.about a {
+
+    color:#931d29;
+}
 
 /*--------------------------------------------------------------------Footer */
 
@@ -390,5 +398,4 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
     }
-
-   
+}

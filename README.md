@@ -4,8 +4,7 @@
 # FILED: A Blog for the History of Paperwork #
 
 This project brings together for the first time scholarship on paperwork – all documents produced in response to a demand (real or imagined) by 
-an office, the law, a lab, or similar organizational entity - and aims to develop into a collaborative, international, 
-and peer-reviewed blog. 
+an office, the law, a lab, or similar organizational entity. We aim to develop this into a high-quality collaborative, international, and peer-reviewed blog.
 
 comprising technologies that now have become the iconic repertoire from which graphical computer interfaces are assembled: forms, manila folder, keyboard, filing cabinet etc  as not least this blog tesitifies.
 I envision this to be less about topics covered by art & literary history 
