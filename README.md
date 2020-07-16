@@ -76,22 +76,7 @@ as can be seen from the above-mentioned usage for paper art and craft.
 In preparation for this project, I sent out a [first call for contributors](https://twitter.com/jochenfm/status/1255194721208741890) on 28 April in form of a twitter thread, stating my main ideas 
 for this blog encouraging my 'followers' to spread the word and send their statements of interest to me via email. 
 
-I had not heard much at this time of the UX process, but I expect different user groups to have the following expectations when they come to the site for the first time: 
-
-* As a reader outside the academy, I want to be informed on the topic, especially on how its historical instances tie in with present-day issues 
-related to inscriptions, reading, power, and information so that I can become a more responsible and critical citizen;
-* As an archivist, museum curator, or historian I want to share my knowledge about files and filing and enter conversation with the respective other professional groups who each have their own blind spots;
-* As a contributor, I want to know where I can submit my post safely and securly so I can partake in the widest possible dissemination of my work to foster historical research and debate;  
-* As a contributor, I wish to grow my academic network so that I know more about what is being done in the field and know where and how I can contribute to the debates;
-* As any of the above user groups, I want this site to look credible and trustworthy;
-* As any of the above user groups, I want to quickly find my way around this site, and also know fast how I can contact the relevant editors;
-* As any of the above user groups, I want to learn more about the aims and rationale of this blog and its main focus.
-
-
-
-
-
-Response to my call of April 28 was overhwlemingly positive, across the ranks of the scholarly community. I also received a number of 
+Response to my call was overwhelmingly positive across the ranks of the scholarly community. I also received a number of 
 suggestions from colleagues of how to improve on the initial ideas and who/what else to include in this blog, such as a bibliography to gather pertinent literature 
 in one place online. Recuitment is still ongoing but, currently two colleagues - [James Purdon](https://www.st-andrews.ac.uk/english/people/jjp5) and [Chris A. Williams](http://www.open.ac.uk/people/caw322) - have 
 comitted to the cause and we are currently in the process of dividing responsibilities and assigning roles (as co-editors, reviewers, and/or advisors).
@@ -122,14 +107,37 @@ The digital wireframes were done by Balsamiq and look as follows:
 
 
 
-As can be seen from the depiction, fonts, colours, and design choices at that stage were all pretty limited, but the main design choices than can now be found on this site had been mande.
- 
-My design was primarily inspired by the feasibility based on what we had learned in the three modules thus far, and the desire to recreate the design world of the early 20th-century
-bureau 
+As can be seen from the depictions above, fonts, colours, and design choices at that stage were all pretty limited, but the main design that can now be found 
+on this site were laid down.
+My layout for this blog is primarily inspired by a combination of feasibility, based on what we had learned in the three modules thus far, and the desire to recreate 
+the design world of early 20th-century office and paper technologies while adhereing to a clean simple design using lots of space. The blogs mentioned below, as well as the 
+CI walkthrough projects ('Whiskey' and 'Rosie') offered some inspiration which I felt capable of implementing, such as the landing page and the recent posts field on index.html, and the submission form 
+on contributions.html   
 
-This may be a sterotype, but historians are almost always in the mood to read so I did not refrain from larger paragraphs of text - this is a history blog after all,
+To this aim, the hero image in yellow-green and grey shades sets the tone
+
+to which I added subtle but effective reactions to user actions by hover effects over buttons, images, and the navbar in a matching wine-red.
+
+I assume that many users coming to this site share my fascination with the now allegedly lost world of paper-based office work and its aesthetics, so the mix of dark grey and an off 
+white with rare greenish colour are clearly intended to speak to their aesthetic preferences.
+
+The added colours are intentional, however, as I wanted to refrain from emulating the illusion of the past in black-and-white created by non-existent colour film at the time. 
+
+Layout of these sites follow the usual conventions, with navbar at the top and social media links in the footer, and a rough rule-of-three division of all site content 
+so users will find it easy to navigate, with one exception: This may be a sterotype, but historians are almost always in the mood to read so I did not refrain from larger paragraphs of text - this is a history blog after all,
 designed to gather and disseminate mostly textual information on a text-heavy topic.
 
+
+I expect different user groups to have the following expectations when they come to the site for the first time: 
+
+* As a reader outside the academy, I want to be informed on the topic, especially on how its historical instances tie in with present-day issues 
+related to inscriptions, reading, power, and information so that I can become a more responsible and critical citizen;
+* As an archivist, museum curator, or historian I want to share my knowledge about files and filing and enter conversation with the respective other professional groups who each have their own blind spots;
+* As a contributor, I want to know where I can submit my post safely and securly so I can partake in the widest possible dissemination of my work to foster historical research and debate;  
+* As a contributor, I wish to grow my academic network so that I know more about what is being done in the field and know where and how I can contribute to the debates;
+* As any of the above user groups, I want this site to look credible and trustworthy;
+* As any of the above user groups, I want to quickly find my way around this site, and also know fast how I can contact the relevant editors;
+* As any of the above user groups, I want to learn more about the aims and rationale of this blog and its main focus.
 
 
 
@@ -166,7 +174,8 @@ such as by geographical region, historial period, and theme.
 - [ ] expand on the submission form as done [here](http://notchesblog.com/write-for-notches/), for instance, and also insert further specifications of sunmission guidelines in terms of word count, aims, scope and style. 
 - [ ] add tooltip from Bootstrap to Data Protection Policy tick box on 'contributions.html' with brief information what these are such as "At no time will we share your data with other 
     people or companies, the data provided will become part of the database of this blog exclusively..." and a link to more information on this which will be stored as a PDF or elsewhere.
-- [ ] a comment function under each blog post for readers to share their views with added further data/comments policies. 
+- [ ] a comment function under each blog post for readers to share their views with added further data/comments policies;
+- [ ] a greater variety of hero images across all sites.
 
 
 ## Technologies Used ##
@@ -194,7 +203,11 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 
 ## Testing ##
 
+...
+
 ## Deployment ##
+
+...
 
 ## Credits ##
 
@@ -215,7 +228,7 @@ The other photos used in this site were obtained via google image and are free t
 ### Acknowledgement ###
 
 My thanks to Code Institute, Brian O'Grady, and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq.
-Many thanks also to Anna Greaves for her great *How to make a Kick-Ass first Milestone* PDFs - I got the idea for box shadows from there, amongst others.
+Many thanks also to Anna Greaves for her great *How to make a Kick-Ass first Milestone* PDFs - I got the idea for box shadows from there, amongst others!
 
 I am also grateful to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
 
