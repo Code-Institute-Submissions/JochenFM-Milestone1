@@ -68,7 +68,7 @@ padding-bottom: 75px;
 
 .page-header {
 
-    margin-bottom: 25px;
+    margin-bottom: 45px;
 
 }
 
@@ -246,6 +246,9 @@ text-transform: uppercase;
 
 .card {
 
+     background-color: #fafafa;
+     min-width: 100px;
+     max-width: 300px;       
      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -296,7 +299,7 @@ text-transform: uppercase;
     width: 75px;
     height: 2px;
     border: 0;
-    margin-left: auto;
+    margin-left: center;
     background-color: #931d29;
 }
 
@@ -386,3 +389,5 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
     }
+
+   
