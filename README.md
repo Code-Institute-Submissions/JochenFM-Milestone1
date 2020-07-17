@@ -106,7 +106,7 @@ The digital wireframes were done by Balsamiq and look as follows:
 
 
 
-As can be seen from the depictions above, fonts, colours, and design choices at that stage were all pretty limited, but the main design that can now be found 
+As can be seen from the depictions above, font, colours, and design choices at that stage were all pretty limited, but the main design that can now be found 
 on this site were laid down.
 My layout for this blog is primarily inspired by a combination of feasibility, based on what we had learned in the three modules thus far, and the desire to recreate 
 the design world of early 20th-century office and paper technologies while adhereing to a clean simple design using lots of space. The blogs mentioned below, as well as the 
@@ -146,9 +146,8 @@ related to inscriptions, reading, power, and information so that I can become a 
 ### Existing Features ###
 
 
-- [x] The large image on the landing page in index.html quickly sets the atmosphere linking design with main content; 
+- [x] The image on the home page in index.html quickly sets the atmosphere linking design with main content; 
 - [x] The 'recent posts' section below the landing page on index.html (once live) will allow users to quickly access the most recent content;
-- [x] If users wish to browse content further they can click on the following 'More recent posts' card before they delve into the single articles;
 - [x] The social media buttons in the footer will allow users to share the content of this page;
 - [x] These social media links also allow us to disseminate the news about the existence of this blog;
 - [x] about.html allows users to quickly gain an overview of the aims and rationale for this blog and who the editors are, 
@@ -162,7 +161,8 @@ Additional features to be implemented in the coming weeks include:
 
 - [ ] wire up the submit form on contributions.html to an external email interface to be able to receive emails and attachments which will be essential to the purpose of this site.
 - [ ] insert ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
-- [ ] create facebook and twitter accounts and put links in footer live
+- [ ] create facebook and twitter accounts and put links in footer live;
+- [ ] a card or similar 'More recent posts' with link to more blog posts;
 - [ ] add more substantial content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in about.html directing to 
     institutional affiliations of and publications by editors and advisors.
 - [ ] ask artist to join and design fitting graphic templates that can be used across the blog
@@ -197,12 +197,46 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
     * The fontcolour transition on the 'About' page was inspired by code from **Stackoverflow**    
 
 * [Codepen](https://codepen.io/)
-*   * The card shadow on 'Home' is taken from **Codepen**
+*   * The shadows behind pictures on index.html is taken from **Codepen**
 
 
 ## Testing ##
 
-...
+Automated and manual testing were conducted during this project. 
+
+1. I used [AmiResponsiveDesign](.http://ami.responsivedesign.is) to create the following test result: 
+
+
+![PNG](wireframes/amiresponsive.png). 
+
+
+As can be seen, all pages, links, icons performed as expected on all devices.
+
+2. Desktop
+
+The site was tested in Google Chrome and Mozilla Firefox browswers and all pages, links on those pages, and footer icon links perform well on all viewport sizes, 
+a few minor issues notwithstanding (see below). Developer tools in Chrome were also used during the creation phases for the various viewport sizes.
+
+3. Mobile
+
+I used my Hueawei3 and my wife's iPhone11 and all pages, links, icons performed well on all devices using Chrome and Safari respectively.
+
+
+4. Bugs
+
+* index.html: 
+
+    * 'Title 3' under 'Recent Posts' has a slight bigger margin to the top than the other two.
+
+* contributions.html:
+
+    * blog divider needs to push down 'Send us your article' a little further;
+    * 'Send article' button needs centering on very large and small screen sizes.
+    * Sandwich toggler in navbar moves off the right margin towards center, also in about.html but not so in index.html
+
+
+Due to time constraints on getting this project submitted I'm unable to address them right now but I will attend to them in the coming days.
+
 
 ## Deployment ##
 
@@ -227,10 +261,13 @@ The other photos used in this site were obtained via google image and are free t
 ### Acknowledgement ###
 
 My thanks to Code Institute, Brian O'Grady, and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq.
-Many thanks also to Anna Greaves for her great *How to make a Kick-Ass first Milestone* PDFs.
+Many thanks also to Anna Greaves for her great *How to make a Kick-Ass first Milestone* PDFs, to all the other tutors 
+and mentors on Slack for many helpful posts and info, and to the CI's Slack Channels and the many fellow students, tutors, and alumni who contribute to them.
 
-Special thanks to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
 
+Huge thanks to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code and for suggesting some crucial layout improvements.
+
+Special thanks to my wife Sheila for pointing out that the greenish colour of the hero image is actually closer to yellow.
 
 The following history blogs provided inspiration:
 * [Black Central Europe](https://blackcentraleurope.com/)

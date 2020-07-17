@@ -336,6 +336,7 @@ background: #343a40;
 
 #footer-details {
 
+    padding: 20px;
 }
 /*--------------------------------------------------------------------Colours */
  .bg-color-contact {
@@ -358,6 +359,11 @@ background: #343a40;
      font-family: "EB Garamond", sans-serif;
      margin-top: 25px;
      margin-bottom: 20px;
+
+.contribution-heading h5 {
+
+         margin-top: 25px;
+     }
  }
 .center-form {
 
