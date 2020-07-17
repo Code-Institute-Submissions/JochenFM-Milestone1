@@ -164,8 +164,9 @@ Additional features to be implemented in the coming weeks include:
 - [ ] insert ‘search’ form and ‘search’ button on the right hand sight of the navbar, probably taken from Bootstrap and customized further, combined with a searchable database of all posts	
 - [ ] create facebook and twitter accounts and put links in footer live;
 - [ ] a card or similar 'More recent posts' with link to more blog posts;
-- [ ] add more substantial content as indicated in navbar under 'Ressources' and, for instance, by inserting more links in about.html directing to 
-    institutional affiliations of and publications by editors and advisors.
+- [ ] add more substantial content under a navbar item Resources, such as a bibliography, autor interviews, and links to related websites and by inserting 
+more links in about.html directing to institutional affiliations of and publications by editors and advisors.  
+- [ ] These additional pages will have more social media buttons to share content, such as for Tumblr, for printing and for email to friend
 - [ ] ask artist to join and design fitting graphic templates that can be used across the blog
 - [ ] a carousel of images at the top of index.html as done [here](notchesblog.com) or [here](blackcentraleurope.com);
 - [ ] a highly visible box or card with contact details for more general queries which are not article submissions
@@ -189,7 +190,6 @@ such as by geographical region, historial period, and theme.
     * This project uses code from **CSS-Tricks** for the [full page background image](https://css-tricks.com/perfect-full-page-background-image/)
 *    [Bootstrap](https://getbootstrap.com/)
     * This project is designed and customized with **Bootstrap**.
-Bootstrap for “Custom file input” as an extension of form on contributions site
 
 * [Favicon](https://favicon.io/)
     * The Favicons have been taken from 
@@ -217,6 +217,10 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 ## Testing ##
 
 Automated and manual testing were conducted during this project. 
+
+I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [W3C HTML Validator](https://validator.w3.org/) which returned "Congratulations! No Error Found"
+ "Document checking completed. No errors or warnings to show" respectively.
+
 
 1. I used [AmiResponsiveDesign](.http://ami.responsivedesign.is) to create the following test result: 
 
@@ -257,7 +261,7 @@ Due to time constraints on getting this project submitted I'm unable to address 
 
 1. I created a Github account under [JochenFM](https://github.com/JochenFM)
 
-2. I committed and pushed all files for this project to my Github repistory under [Milestone1](https://github.com/JochenFM/Milestone1)
+2. I committed and pushed all files for this project to my Github repistory [Milestone1](https://github.com/JochenFM/Milestone1)
 
 3. To make my website live and working for other people to look I followed the 
 steps outlined [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site): 
