@@ -98,12 +98,12 @@ The current layout is primarily inspired by a combination of feasibility, based 
 the design world of early 20th-century office and paper technologies, while adhereing to a clean simple design using lots of space. 
 
 To this aim, the hero image in yellow-green and grey shades, and the Garamond typeface, named for sixteenth-century Parisian engraver Claude Garamond, set the tone.
-I added subtle but effective reactions to user actions by hover effects over buttons, images, and the navbar in a matching wine-red. 
+I added subtle but effective reactions to user actions by hover effects over buttons, names, and the navbar in a matching wine-red. 
 I assume that many users coming to this site share my fascination with the now allegedly lost world of paper-based office work and its aesthetics, so the mix of dark grey and an off 
 white with rare greenish colour are clearly intended to speak to their aesthetic preferences.
 
-The added colours - inlcuding the block dividers in wine-red - are intentional, however, as I wanted 
-to refrain from emulating the illusion of a past in black-and-white only. 
+The added colours - inlcuding the block dividers in wine-red and coloured images - are intentional, however, as I wanted 
+to refrain from emulating the illusion of a past in black-and-white colours only. 
 
 The blogs mentioned in the Acknowledgments below, as well as the CI walkthrough projects ('Whiskey' and 'Rosie') offered some inspiration which I felt capable of implementing, 
 such as the landing page and the recent posts field on index.html, and the submission form on contributions.html   
@@ -216,7 +216,7 @@ Automated and manual testing were conducted during this project.
 ![PNG](wireframes/amiresponsive.png). 
 
 
-As can be seen, all pages, links, icons performed as expected on all devices.
+As can be seen, all pages, links, icons performed as expected on all devices (with the exception of the hero image on the iPhone)
 
 3. Desktop
 
@@ -225,7 +225,8 @@ a few minor issues notwithstanding (see below). Developer tools in Chrome were a
 
 4. Mobile
 
-I used my Hueawei3 and my wife's iPhone11 and all pages, links, icons performed well on all devices using Chrome and Safari respectively.
+I used my Hueawei3 and my wife's iPhone11 and all pages, links, icons performed well on all devices using Chrome and Safari respectively with the 
+exception of the hero image on an Apple phone.
 
 
 5. Bugs
@@ -233,12 +234,19 @@ I used my Hueawei3 and my wife's iPhone11 and all pages, links, icons performed 
 * index.html: 
 
     * 'Title 3' under 'Recent Posts' has a slight bigger margin to the top than the other two.
+    * On an Apple mobile phone the top bit of the hero image cropped.
 
 * contributions.html:
 
     * blog divider needs to push down 'Send us your article' a little further;
     * 'Send article' button needs centering on very large and small screen sizes.
-    * Sandwich toggler in navbar moves off the right margin towards center, also in about.html but not so in index.html
+    * Sandwich toggler in navbar moves off the right margin towards center, also in about.html, but not so in index.html
+
+* On all:
+
+    * The Navbar highlight for current page was coded with the help from [Stackoverflow](https://stackoverflow.com/questions/26819675/navbar-highlight-for-current-page) and it works
+    well, but I could not decide on an appropriate styling yet.
+
 
 
 Due to time constraints on getting this project submitted I'm unable to address them right now but I will attend to them in the coming days.
