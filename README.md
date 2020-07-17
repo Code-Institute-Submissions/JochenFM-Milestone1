@@ -227,11 +227,10 @@ The other photos used in this site were obtained via google image and are free t
 ### Acknowledgement ###
 
 My thanks to Code Institute, Brian O'Grady, and especially to Matt Rudge for providing concise and useful course material and for free access to Balsamiq.
-Many thanks also to Anna Greaves for her great *How to make a Kick-Ass first Milestone* PDFs - I got the idea for box shadows from there, amongst others!
+Many thanks also to Anna Greaves for her great *How to make a Kick-Ass first Milestone* PDFs.
 
-I am also grateful to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
+Special thanks to my mentor [Adegbenga Adeye](https://github.com/deye9) for commenting on earlier versions of my code.
 
-Special thanks to [Philip](https://github.com/smackem)...
 
 The following history blogs provided inspiration:
 * [Black Central Europe](https://blackcentraleurope.com/)

@@ -19,7 +19,7 @@
     ​<!--COMMENT The navbar and landing page are inspired by CI's "Whiskey" project augmented by Bootstrap - credit goes to Matt and CI-->
 ​
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#">Paperwork Blog</a>
+            <a class="navbar-brand" href="index.html">Paperwork Blog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,25 +35,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contributions.html">Write for us?</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ressources
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Bibliography</a>
-                        <a class="dropdown-item" href="#">Author Interviews</a>
-                        <a class="dropdown-item" href="#">Websites</a>
-                    </div>
-                </li>
             </ul>
-           <!--COMMENT Not displayed at the moment 
-           <form class="form-inline lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-dark sm-0" type="submit">Search</button>
-            </form>
-            The search function will go live when content is on the page in terms of blog posts and I will 
-            have learned how to wire this up to whatever code is needed to facilitate searches, e.g. by keywords in posts-->  
         </div>
     </nav>
 ​</header>
@@ -74,21 +56,16 @@
     <div class="container posts-container content-container">
         <section class="post">
             <div class="row">
-                <div class="col-12 page-header">
+                <div class="col-12 page-header text-center">
                     <h3 class="text-uppercase">Recent Posts:</h3>
+                    <hr class="block-divider">
                 </div>
             </div>
-            <!--COMMENT The following section is intended to present readers the most recent articles at a glance
-            and with little teasing images to stir interest in reading clicking on and reading further
-            It will have to be linked up with blog entries on the site once
-            these exist. Respective pictures will be replaced with those of individual blog entries, as formatted 
-            and linked up by the blog editor. Links will also go behind titles and author's name-->
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12">
                     <div class="media">
-                        <div class="image d-none d-sm-block">
-                            <img src="assets/images/threewomencardindex.jpg" height="100" width="100"
-                                alt="">
+                        <div class="image img-responsive">
+                            <img src="assets/images/threewomencardindex.jpg" height="100" width="100" alt="">
                         </div>
                         <div class="media-body">
                             <div class="posts">
@@ -102,9 +79,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12">
                     <div class="media">
-                        <div class="image d-none d-sm-block">
+                        <div class="image img-responsive" image="">
                             <img src="assets/images/punchedcardindex.jpg" height="100" width="100" alt="">
                         </div>
                         <div class="media-body">
@@ -115,14 +92,14 @@
                                 </div>
                                 <a href="/" class="" target="_blank"></a>
                                 <p><a class="btn btn-dark" href="">Read More</a></p>
-​
+&#8203;
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                <div class="col-12">
                     <div class="media">
-                        <div class="image d-none d-sm-block">
+                        <div class="image img-responsive">
                             <img src="assets/images/filesarchive.jpg" height="100" width="100" alt="">
                         </div>
                         <div class="media-body">
@@ -137,18 +114,6 @@
                         </div>
                     </div>
                 </div>
-                  <div class="container">  
-                    <div class ="row">
-                        <div class="col-6 offset-4 d-none d-sm-block">
-                            <div class="card">
-                                 <div class="card-body">
-                                    <h5 class="card-title">More recent posts</h5>
-                                        <a href="#" class="btn btn-dark">Click here</a>
-                                    </div>
-                                </div>
-                        </div>
-                        </div>
-            </div>
             </div>
         </section>
     </div>
@@ -156,7 +121,7 @@
 <!--COMMENT: The footer is inspired by CI's Rosie project - thanks got to the Matt & CI. It is intentionally stripped to the very
 basics - there is no need for extensive links to social media as yet but future pages under Resources where we might share more content 
 will likely have links to Tumblr, for printing and for 'email to friend' -->
-    <footer class="container-fluid"> 
+   <footer class="container-fluid"> 
             <div id="footer-details" class="row justify-content-between">
                 <div class="col-sm-4">
                 <h5 class= "uppercase general-sub">Copyright</h5>
@@ -183,6 +148,7 @@ will likely have links to Tumblr, for printing and for 'email to friend' -->
             </div>
         </div>    
     </footer>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

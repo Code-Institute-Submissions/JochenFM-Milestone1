@@ -5,7 +5,7 @@ body {
 
 .callout-container {
 
-    height: 100vH;
+    height: 50vH;
     
     background: url("../images/womankardex.jpg") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
@@ -19,20 +19,6 @@ body {
 }
 
 
-.small-container {
-
-height: 50vH;
-    
-    background: url("../images/womankardex.jpg") no-repeat bottom right fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .content-container {
 
@@ -350,7 +336,6 @@ background: #343a40;
 
 #footer-details {
 
-    padding: 20px;
 }
 /*--------------------------------------------------------------------Colours */
  .bg-color-contact {

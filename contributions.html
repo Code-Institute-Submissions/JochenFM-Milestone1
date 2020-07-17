@@ -20,7 +20,7 @@
     ​<!--COMMENT The navbar and landing page are inspired by the CI's "Whiskey" project augmented by Bootstrap - credit goes to Matt and CI-->
 ​
         <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="#">Paperwork Blog</a>
+            <a class="navbar-brand" href="index.html">Paperwork Blog</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -37,31 +37,14 @@
                 <li class="nav-item">
                     <a class="nav-link active-page" href="contributions.html">Write for us?</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ressources
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Bibliography</a>
-                        <a class="dropdown-item" href="#">Author Interviews</a>
-                        <a class="dropdown-item" href="#">Websites</a>
-                    </div>
-                </li>
             </ul>
-          <!--COMMENT Not displayed at the moment 
-           <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-dark my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            The search function will go live when content is on the page in terms of blog posts and I will 
-            have learned how to wire this up to whatever code is needed to facilitate searches, e.g. by keywords in posts-->   
+  
         </div>
     </nav>
 ​</header>
 
 <!-- Callout-->
-    <div class="container-fluid small-container">
+    <div class="container-fluid callout-container">
         <div class="row">
             <div class="col-12 my-5">
                 <section class="callout jumbotron text-center">
@@ -74,7 +57,7 @@
     <!--/callout-->
 ​
 
-    <!-- contributions adapted from Rosie project-->
+    <!-- contributions adapted from Rosie project, ideas for <br> from my mentor Benga-->
 <section class="container-fluid contribution-container">
     <div class="row bg-color-contact">
         <div class="col">
@@ -83,12 +66,15 @@
             <div class="center-form">
             <form class="needs-validation" novalidate>
                 <input type="text" name="name" class="form-control" placeholder="Name" required/>
+                <br>
                 <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required/>
+                <br>
                      <!--the following four lines of code are adapted from Bootstrap--> 
                      <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFile01">
                         <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                     </div>
+                    <br><br>
                 <textarea rows="5" name="comment" id="comment" class="form-control" placeholder="Your message" required></textarea>
                 <div class="form-row text-center">
                     
