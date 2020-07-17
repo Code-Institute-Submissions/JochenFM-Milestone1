@@ -148,7 +148,8 @@ related to inscriptions, reading, power, and information so that I can become a 
 
 - [x] The image on the home page in index.html quickly sets the atmosphere linking design with main content; 
 - [x] The 'recent posts' section below the landing page on index.html (once live) will allow users to quickly access the most recent content;
-- [x] The social media buttons in the footer will allow users to share the content of this page;
+- [x] The social media buttons in the footer will allow users to share the content of this page; These are intentionally stripped to the very
+basics - there is no need for extensive links to social media as yet.
 - [x] These social media links also allow us to disseminate the news about the existence of this blog;
 - [x] about.html allows users to quickly gain an overview of the aims and rationale for this blog and who the editors are, 
 their interests and social media profiles all of which is crucial to get a feel for what they are seeing;
@@ -199,6 +200,19 @@ Bootstrap for “Custom file input” as an extension of form on contributions s
 * [Codepen](https://codepen.io/)
 *   * The shadows behind pictures on index.html is taken from **Codepen**
 
+* [GitHub](https://github.com) and [Gitpod](https://www.gitpod.io/)
+
+*   * **Github** and **Gitpod** were used to host the software development versions and to create and save the code respectively.
+
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+
+*   * **Chrome DevTools** built directly into the Google Chrome browser were used constantly thoughout the development cycle.
+
+* [W3C Markup Validation Service](https://validator.w3.org/)
+
+*   * I used both for HTML and CSS to run my code looking for errors.
+
+
 
 ## Testing ##
 
@@ -240,16 +254,47 @@ Due to time constraints on getting this project submitted I'm unable to address 
 
 ## Deployment ##
 
-...
+
+1. I created a Github account under [JochenFM](https://github.com/JochenFM)
+
+2. I committed and pushed all files for this project to my Github repistory under [Milestone1](https://github.com/JochenFM/Milestone1)
+
+3. To make my website live and working for other people to look I followed the 
+steps outlined [here](https://docs.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site): 
+In my repository, I went to 'Settings', then scrolled down to 'Github Pages'. 
+Under the Source setting, I used the drop-down menu to select 'master branch' as a publishing source and saved it. 
+Upon refreshing the github page, I was issued the url where my page is published, namely "Your site is published at https://jochenfm.github.io/Milestone1/"
+
+To pull my code from my Github repository to run it on another machine, one would go to my [repisitory](https://github.com/JochenFM/Milestone1) and on the 
+main page one would then click the green button 'Code' with a downward pointing arrow, on the right hand side just above the files. This button will give you 
+options to 'clone with HTTPS', or 'Open with Github Desktop', or 'Download ZIP'. 
+
+To continue with cloning, one would then:
+
+* open Git Bash,
+* change the current working directory to the location where you want the cloned directory to be made,
+* type 'git clone', and then paste this URL; https://github.com/JOchenFM/Milestone1 
+* press 'Enter' to create the local clone.
+
+See also [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for more information on the process.
+
+
+
+
 
 ## Credits ##
 
 ### Content ###
 
+See some credits mentioned in my HTML code.
+
 The text for section 'Editorial Team' on the 'Write for us?' site was copied from the editors' respective home/institutional websites 
 and partly also provided by the co-editors upon request by email. Text for this section (and others) will be customized
 further as we go along.
 All other text of this blog was written by me.
+
+See 
+
 
 ### Media ###
 
